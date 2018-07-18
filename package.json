@@ -1,0 +1,43 @@
+{
+  "name": "mindercase",
+  "version": "1.0.0",
+  "description": "a test case management scheme based on mind map",
+  "main": "app.js",
+  "scripts": {
+    "init": "npm install -g bower && bower install && npm install",
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zstaring/MinderCase.git"
+  },
+  "keywords": [
+    "minder",
+    "testcase"
+  ],
+  "author": "zxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zstaring/MinderCase/issues"
+  },
+  "homepage": "https://github.com/zstaring/MinderCase#readme",
+  "dependencies": {
+    "kityminder-core": "^1.4.48",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
