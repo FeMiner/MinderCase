@@ -12,40 +12,12 @@
 	<link rel="stylesheet" href="/bower_components/codemirror/lib/codemirror.css" />
 	<link rel="stylesheet" href="/bower_components/hotbox/hotbox.css" />
 	<link rel="stylesheet" href="/bower_components/color-picker/dist/color-picker.min.css" />
-	<link rel="stylesheet" href="./kityminder.core.css" />
+	<link rel="stylesheet" href="/kityminder/kityminder.core.css" />
 	<!-- endbower -->
 
-	<link rel="stylesheet" href="./kityminder.editor.min.css">
+	<link rel="stylesheet" href="/kityminder/kityminder.editor.min.css">
 
-	<style>
-		html,
-		body {
-			margin: 0;
-			padding: 0;
-			height: 100%;
-			overflow: hidden;
-		}
-
-		h1.editor-title {
-			background: #393F4F;
-			color: white;
-			margin: 0;
-			height: 40px;
-			font-size: 14px;
-			line-height: 40px;
-			font-family: 'Hiragino Sans GB', 'Arial', 'Microsoft Yahei';
-			font-weight: normal;
-			padding: 0 20px;
-		}
-
-		div.minder-editor-container {
-			position: absolute;
-			top: 40px;
-			bottom: 0;
-			left: 0;
-			right: 0;
-		}
-	</style>
+	<link rel="stylesheet" href="/dist/minder.css">
 </head>
 
 <body ng-app="kityminderDemo" ng-controller="MainController">
@@ -71,10 +43,10 @@
 	<script src="/bower_components/hotbox/hotbox.js"></script>
 	<script src="/bower_components/json-diff/json-diff.js"></script>
 	<script src="/bower_components/color-picker/dist/color-picker.min.js"></script>
-	<script src="./kityminder.core.min.js"></script>
+	<script src="/kityminder/kityminder.core.min.js"></script>
 	<!-- endbower -->
 
-	<script src="./kityminder.editor.min.js"></script>
+	<script src="/kityminder/kityminder.editor.min.js"></script>
 	<script>
 		angular.module('kityminderDemo', ['kityminderEditor'])
 			.config(function (configProvider) {
