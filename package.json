@@ -30,7 +30,7 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
